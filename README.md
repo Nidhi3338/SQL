@@ -38,14 +38,14 @@ The commands available in SQL can be broadly categorised as follows:
 
 Data Definition Language (DDL):
 
-Create
-Alter
-Drop
-Rename
+1 Create
+2 Alter
+3 Drop
+4 Rename
 Data Manipulation Language (DML):
 
-Insert
-Update
-Delete
-Select
-Truncate
+1 Insert
+2 Update
+3 Delete
+4 Select
+5 Truncate
