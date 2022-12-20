@@ -17,14 +17,18 @@ its a process of storingand retrieving data or information
   4. *object oriented *
 ##ER -diagram 
 represenation of entities and attributes , describes relationship btw each other 
+
 **entity**
 its a non living or real things where data is maintained 
+
 ** attribute**
 property of an entity 
 1. key attribute 
 2. composite attribute 
 3. derived attribute 
 4. multivalued attribute 
+
+primary key is unique key and doesnt have null values in the table
 
 **Realationship**
 it is a process of describe a realationship between enitity 
@@ -53,4 +57,5 @@ The commands available in SQL can be broadly categorised as follows:
 4. Select
 5. Truncate
 
+'code'
 
