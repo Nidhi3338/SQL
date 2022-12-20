@@ -36,15 +36,15 @@ its a process of expressing the relationship to find out how are participating i
  
 The commands available in SQL can be broadly categorised as follows:
 
-Data Definition Language (DDL):
+-Data Definition Language (DDL):
 
-1. Create
-2. Alter
-3. Drop
+1.Create
+2.Alter
+3.Drop
 4.Rename
-Data Manipulation Language (DML):
+-Data Manipulation Language (DML):
 
-1. Insert
+1.Insert
 2.Update
 3.Delete
 4.Select
