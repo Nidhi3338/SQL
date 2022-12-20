@@ -57,5 +57,7 @@ The commands available in SQL can be broadly categorised as follows:
 4. Select
 5. Truncate
 
-'code'
+##code\
+'use world'
+
 
