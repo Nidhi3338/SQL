@@ -1,5 +1,7 @@
 # SQL
 query lanaguage (used for big data)
+ORCAL DEVELOPERS ARE THE LARGEST DATABASE MANAGEMENT COMPANY
+most cloud computing platforms provides MYSQL IN AWS AND AZURE 
 
 ##  Data 
 data is a collection of raw facts 
@@ -50,3 +52,5 @@ The commands available in SQL can be broadly categorised as follows:
 3. Delete
 4. Select
 5. Truncate
+
+
