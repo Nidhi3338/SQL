@@ -34,4 +34,18 @@ it is a process of describe a realationship between enitity
 **cardinality ratio:**
 its a process of expressing the relationship to find out how are participating in the event 
  
+The commands available in SQL can be broadly categorised as follows:
 
+Data Definition Language (DDL):
+
+Create
+Alter
+Drop
+Rename
+Data Manipulation Language (DML):
+
+Insert
+Update
+Delete
+Select
+Truncate
