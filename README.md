@@ -46,16 +46,16 @@ The commands available in SQL can be broadly categorised as follows:
 
 **Data Definition Language (DDL):**
 
-1. Create
+1. Create  (create database )( create table name)
 2. Alter
 3. Drop
 4. Rename
 
 **Data Manipulation Language (DML):**
 
-1. Insert
-2. Update
-3. Delete
+1. Insert  insert into <table name> values(--,--);
+2. Update  update table name set name ='' where ;
+3. Delete  delete from table name where name ='';
 4. Select
 5. Truncate
 
@@ -68,6 +68,7 @@ create database ;
 create databse database_name;
 create table;
 create table table_name(column_name datatype key);
+desc table name
 
 alter table by adding column
 alter table table_name add column column_name constraint;
