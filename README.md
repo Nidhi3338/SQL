@@ -62,12 +62,24 @@ The commands available in SQL can be broadly categorised as follows:
 ## schema 
 its a collection of tables 
 
-** code for creating database **
+** code for creating database ** DDL
 ```
 create database ;
 create databse database_name;
 create table;
 create table table_name(column_name datatype key);
+
+alter table by adding column
+alter table table_name add column column_name constraint;
+ alter table by deleting column
+alter table table_name drop column column_name;
+alter table by changing an existing column and constraint
+alter table table_name change old_column_name new_column_name constraint;
+
+drop database
+drop database database_name;
+ drop table
+drop table table_name;
 ```
 
 ** to use the database after importing the file **
