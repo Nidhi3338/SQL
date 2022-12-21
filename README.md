@@ -8,7 +8,9 @@ data is a collection of raw facts
 ## information 
 is a processed data 
 ##database
-coolection of processed data and raw facts in large volumne 
+collection of processed data and raw facts in large volumne / collection of schema 
+## schema 
+its a collection of tables 
 ## DBMS
 its a process of storingand retrieving data or information 
   1. *relational database (sql ,tables) *
@@ -57,7 +59,12 @@ The commands available in SQL can be broadly categorised as follows:
 4. Select
 5. Truncate
 
-##code\
-'use world'
+## schema 
+its a collection of tables 
 
+'''
+show datbase
+use world
+show tables
+'''
 
