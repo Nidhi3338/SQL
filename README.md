@@ -62,6 +62,15 @@ The commands available in SQL can be broadly categorised as follows:
 ## schema 
 its a collection of tables 
 
+** code for creating database **
+```
+create database ;
+create databse database_name;
+create table;
+create table table_name(column_name datatype key);
+```
+
+** to use the database after importing the file **
 ```
 show datbases
 use world
