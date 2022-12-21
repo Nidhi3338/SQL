@@ -62,9 +62,9 @@ The commands available in SQL can be broadly categorised as follows:
 ## schema 
 its a collection of tables 
 
-'''
+```
 show datbase
 use world
 show tables
-'''
+```
 
