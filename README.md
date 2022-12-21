@@ -63,7 +63,7 @@ The commands available in SQL can be broadly categorised as follows:
 its a collection of tables 
 
 ```
-show datbase
+show datbases
 use world
 show tables
 ```
