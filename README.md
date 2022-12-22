@@ -4,7 +4,7 @@ ORCAL DEVELOPERS ARE THE LARGEST DATABASE MANAGEMENT COMPANY
 most cloud computing platforms provides MYSQL IN AWS AND AZURE 
 
 **MYsql
-INONDB is a default storage engine 
+INONDB is a default storage engine for high performance and reliability 
 
 ##  Data 
 data is a collection of raw facts 
