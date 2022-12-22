@@ -3,6 +3,9 @@ query lanaguage (used for big data)
 ORCAL DEVELOPERS ARE THE LARGEST DATABASE MANAGEMENT COMPANY
 most cloud computing platforms provides MYSQL IN AWS AND AZURE 
 
+**MYsql
+INONDB is a default storage engine 
+
 ##  Data 
 data is a collection of raw facts 
 ## information 
