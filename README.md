@@ -57,7 +57,7 @@ The commands available in SQL can be broadly categorised as follows:
 **Data Manipulation Language (DML):**
 
 1. Insert  insert into <table name> values(--,--);
-2. Update  update table name set name ='' where ;
+2. Update  update table name set name ='' where ; null -values
 3. Delete  delete from table name where name ='';
 4. Select
 5. Truncate
