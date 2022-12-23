@@ -78,12 +78,12 @@ create database ;
 create databse database_name;
 create table;
 create table table_name
-  (column_name datatype key);
+ (column_name datatype key);
 show databases;
 use databse;
 show tables;
 desc table name;
-  (to show the column name of the table )
+  (to show the column name, type , null values of the table )
 
 alter table by adding column
 alter table table_name add column column_name constraint;
@@ -94,7 +94,7 @@ alter table table_name change old_column_name new_column_name constraint;
 
 drop database
 drop database database_name;
- drop table
+drop table
 drop table table_name;
 ```
 
