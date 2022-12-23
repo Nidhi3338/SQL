@@ -69,8 +69,8 @@ The commands available in SQL can be broadly categorised as follows:
 5. Truncate
 
   
-schema
-its a collection of tables 
+**schema
+- its a collection of tables 
 
 code for creating database
 DDL
