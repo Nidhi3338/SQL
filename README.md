@@ -47,16 +47,17 @@ its a process of expressing the relationship to find out how are participating i
  
 The commands available in SQL can be broadly categorised as follows:
 
-**Data Definition Language (DDL):**
+**Data Definition Language (DDL):** changing the schema 
 
 1. Create  
 - (create database )( create table name)
 2. Alter
-3. Drop 
+-  (to change the column in the table)
+4. Drop 
 - (which will drope the entire table ) drop table test;
-4. Rename
+5. Rename
 
-**Data Manipulation Language (DML):**
+**Data Manipulation Language (DML):** not distrubing the schema 
 
 1. Insert  
 - insert into <table name> values(--,--);
