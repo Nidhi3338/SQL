@@ -117,4 +117,6 @@ from album as a join track as t on a.id=album_id
 order by a.artist,a.title,t.track_number;
 ```
 
-
+MODE %
+   "%Mon"- which ends with MON string value 
+   "mon%"- which start with MON string value
