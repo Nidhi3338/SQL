@@ -52,7 +52,7 @@ The commands available in SQL can be broadly categorised as follows:
 1. Create  
 - (create database )( create table name)
 2. Alter
--  (to change the column in the table)
+-  (to change the column rename, add , remove and change the datatyoe in the table)
 4. Drop 
 - (which will drope the entire table ) drop table test;
 5. Rename
