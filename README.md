@@ -50,20 +50,20 @@ The commands available in SQL can be broadly categorised as follows:
 **Data Definition Language (DDL):**
 
 1. Create  
-(create database )( create table name)
+- (create database )( create table name)
 2. Alter
 3. Drop 
-(which will drope the entire table ) drop table test;
+- (which will drope the entire table ) drop table test;
 4. Rename
 
 **Data Manipulation Language (DML):**
 
 1. Insert  
-insert into <table name> values(--,--);
+- insert into <table name> values(--,--);
 2. Update  
-update table name set name ='',address='' where zip='89'; null -values
+- update table name set name ='',address='' where zip='89'; null -values
 3. Delete  
-delete from table name where name ='';   / delete from table name ;-( delete the entire row values ) 
+- delete from table name where name ='';   / delete from table name ;-( delete the entire row values ) 
 4. Select
 5. Truncate
 
@@ -78,12 +78,12 @@ create database ;
 create databse database_name;
 create table;
 create table table_name
- (column_name datatype key);
+- (column_name datatype key);
 show databases;
 use databse;
 show tables;
 desc table name;
-  (to show the column name, type , null values of the table )
+- to show the column name, type , null values of the table )
 
 alter table by adding column
 alter table table_name add column column_name constraint;
@@ -120,3 +120,13 @@ order by a.artist,a.title,t.track_number;
 MODE %
    "%Mon"- which ends with MON string value 
    "mon%"- which start with MON string value
+
+# select comments 
+  1. select count(*) from table_name; 
+  - ( counting the number of rows in the column)
+  2. SELECT * FROM table_name 
+  ORDER BY limit 5;
+  - (fetch only 5 rows)
+  3. insert into column name values( constraints) 
+  - (to add a row or rows to the table)
+  
