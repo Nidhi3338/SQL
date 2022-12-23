@@ -103,8 +103,8 @@ show tables
 
 join clause
 ability to join the rows from diffrent tables and find relationship between them.
-1.track as t-table (column - id forign key , track , titile , duration)
-2.alblum as a-table (column -id primary key, titile ,artist)
+- track as t-table (column - id forign key , track , titile , duration)
+- alblum as a-table (column -id primary key, titile ,artist)
   
 
 ```
