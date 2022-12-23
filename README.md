@@ -50,15 +50,20 @@ The commands available in SQL can be broadly categorised as follows:
 **Data Definition Language (DDL):** changing the schema 
 
 1. Create  
-- (create database )( create table name)
+- (create database ;)( create table name;)
 2. Alter
 -  (to change the column rename, add , remove and change the datatyoe in the table)
+-  ALTER TABLE NAME ADD COLUMN NAME;
+-  ALTER TABLE NAME remove COLUMN NAME;
+-  ALTER TABLE NAME MODIFY COLUMN NAME ;- datatype change 
 4. Drop 
-- (which will drope the entire table ) drop table test;
+- drop table test; (which will drope the entire table )
 5. Rename
+-  RENAME TABLE Old_Table_Name TO New_Table_Name;  (rename the database table )
+6. Truncate
+- TRUNCATE TABLE Table_Name; ( is used for deleting all the records from the table )
 
 **Data Manipulation Language (DML):** not distrubing the schema 
-
 1. Insert  
 - insert into <table name> values(--,--);
 2. Update  
@@ -66,10 +71,9 @@ The commands available in SQL can be broadly categorised as follows:
 3. Delete  
 - delete from table name where name ='';   / delete from table name ;-( delete the entire row values ) 
 4. Select
-5. Truncate
-
+- select * from tablename;
   
-**schema
+schema
 - its a collection of tables 
 
 code for creating database
