@@ -3,7 +3,7 @@ query lanaguage (used for big data)
 ORCAL DEVELOPERS ARE THE LARGEST DATABASE MANAGEMENT COMPANY
 most cloud computing platforms provides MYSQL IN AWS AND AZURE 
 
-**MYsql
+**MYsql**
 INONDB is a default storage engine for high performance and reliability 
 
 ##  Data 
@@ -16,7 +16,7 @@ collection of processed data and raw facts in large volumne / collection of sche
 its a collection of tables 
 ## DBMS
 its a process of storingand retrieving data or information 
-  1. *relational database (sql ,tables) *
+  1. *relational database (sql ,tables)*
   2. *hierarchial database (nosql)*
   3. *network (neo-4 j)*
   4. *object oriented *
@@ -101,7 +101,7 @@ use world
 show tables
 ```
 
-##join clause
+join clause
 ability to join the rows from diffrent tables and find relationship between them.
 
 ```
