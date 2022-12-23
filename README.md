@@ -24,7 +24,7 @@ its a process of storingand retrieving data or information
 represenation of entities and attributes , describes relationship btw each other 
 
 **entity**
-its a non living or real things where data is maintained 
+its a non living or real things where data is maintained / entity conatins the attributes 
 
 **attribute**
 property of an entity 
