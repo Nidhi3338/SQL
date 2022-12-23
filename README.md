@@ -49,16 +49,21 @@ The commands available in SQL can be broadly categorised as follows:
 
 **Data Definition Language (DDL):**
 
-1. Create  (create database )( create table name)
+1. Create  
+(create database )( create table name)
 2. Alter
-3. Drop
+3. Drop 
+(which will drope the entire table ) drop table test;
 4. Rename
 
 **Data Manipulation Language (DML):**
 
-1. Insert  insert into <table name> values(--,--);
-2. Update  update table name set name ='' where ; null -values
-3. Delete  delete from table name where name ='';
+1. Insert  
+insert into <table name> values(--,--);
+2. Update  
+update table name set name ='',address='' where zip='89'; null -values
+3. Delete  
+delete from table name where name ='';   / delete from table name ;-( delete the entire table values ) 
 4. Select
 5. Truncate
 
@@ -71,6 +76,7 @@ create database ;
 create databse database_name;
 create table;
 create table table_name(column_name datatype key);
+show tables;
 desc table name
 
 alter table by adding column
@@ -92,4 +98,14 @@ show datbases
 use world
 show tables
 ```
+
+**join clause **
+ability to join the rows from diffrent tables and find relationship between them.
+
+```
+select a.artist as artist,a.title ,t.title as album,t.title,t.track_number,t.duration
+from album as a join track as t on a.id=album_id
+order by a.artist,a.title,t.track_number;
+```
+
 
