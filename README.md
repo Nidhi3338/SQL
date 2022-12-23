@@ -103,6 +103,9 @@ show tables
 
 join clause
 ability to join the rows from diffrent tables and find relationship between them.
+  track as t-table (column - id forign key , track , titile , duration)
+  alblum as a-table (column -id primary key, titile ,artist)
+  
 
 ```
 select a.artist as artist,a.title ,t.title as album,t.title,t.track_number,t.duration
