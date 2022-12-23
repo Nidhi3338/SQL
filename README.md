@@ -77,13 +77,16 @@ DDL
 create database ;
 create databse database_name;
 create table;
-create table table_name(column_name datatype key);
+create table table_name
+  (column_name datatype key);
+show databases;
 show tables;
-desc table name
+desc table name;
+  (to show the column name of the table )
 
 alter table by adding column
 alter table table_name add column column_name constraint;
- alter table by deleting column
+alter table by deleting column
 alter table table_name drop column column_name;
 alter table by changing an existing column and constraint
 alter table table_name change old_column_name new_column_name constraint;
