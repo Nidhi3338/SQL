@@ -70,7 +70,8 @@ delete from table name where name ='';   / delete from table name ;-( delete the
 ## schema 
 its a collection of tables 
 
-** code for creating database ** DDL
+** code for creating database **
+DDL
 ```
 create database ;
 create databse database_name;
