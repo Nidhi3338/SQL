@@ -70,7 +70,7 @@ delete from table name where name ='';   / delete from table name ;-( delete the
 ## schema 
 its a collection of tables 
 
-** code for creating database **
+##code for creating database ##
 DDL
 ```
 create database ;
@@ -93,14 +93,14 @@ drop database database_name;
 drop table table_name;
 ```
 
-** to use the database after importing the file **
+##to use the database after importing the file ##
 ```
 show datbases
 use world
 show tables
 ```
 
-**join clause **
+##join clause ##
 ability to join the rows from diffrent tables and find relationship between them.
 
 ```
