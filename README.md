@@ -63,7 +63,7 @@ insert into <table name> values(--,--);
 2. Update  
 update table name set name ='',address='' where zip='89'; null -values
 3. Delete  
-delete from table name where name ='';   / delete from table name ;-( delete the entire table values ) 
+delete from table name where name ='';   / delete from table name ;-( delete the entire row values ) 
 4. Select
 5. Truncate
 
