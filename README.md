@@ -80,6 +80,7 @@ create table;
 create table table_name
   (column_name datatype key);
 show databases;
+use databse;
 show tables;
 desc table name;
   (to show the column name of the table )
