@@ -67,10 +67,11 @@ delete from table name where name ='';   / delete from table name ;-( delete the
 4. Select
 5. Truncate
 
-##schema
+  
+schema
 its a collection of tables 
 
-##code for creating database
+code for creating database
 DDL
 ```
 create database ;
@@ -93,7 +94,7 @@ drop database database_name;
 drop table table_name;
 ```
 
-##to use the database after importing the file 
+to use the database after importing the file 
 ```
 show datbases
 use world
