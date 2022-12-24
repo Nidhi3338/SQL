@@ -135,3 +135,4 @@ MODE %
   3. insert into column name values( constraints) 
   - (to add a row or rows to the table)
   
+#trader jo;s buisness idea 
