@@ -145,6 +145,10 @@ MODE %
   
   select fa+fab, da,db from munerics;  o/p (0.33388 , 03)
   
- #UML 
+ # UML-design for database
+  - inheritance class -(its a sub class which will be a part of parent class) abstraction 
+  - association ( super sub class)
+  - aggregation ( without any dependency )
+  - composition( with dependency)
   
 #trader jo;s buisness idea 
