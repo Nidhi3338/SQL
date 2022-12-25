@@ -137,7 +137,7 @@ MODE %
   3. insert into column name values( constraints) 
   - (to add a row or rows to the table)
   
-  # Data Types
+  ## Data Types
   - numeric -( decimal- for financial applications,float , double )
   - string
   - data and time ( select now(),year -month -day time)
@@ -145,7 +145,7 @@ MODE %
   
   select fa+fab, da,db from munerics;  o/p (0.33388 , 03)
   
- # UML-design for database
+ ## UML-design for database
   - inheritance class -(its a sub class which will be a part of parent class) abstraction 
   - association ( super sub class)
   - aggregation ( without any dependency )
