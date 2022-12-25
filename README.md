@@ -81,7 +81,7 @@ DDL
 ```
 create database ;
 create databse database_name;
-create table;
+create table (id serial,name char(12));
 create table table_name
 - (column_name datatype key);
 * show databases;
@@ -138,11 +138,13 @@ MODE %
   - (to add a row or rows to the table)
   
   # Data Types
-  - numeric -( decimal ,float , double )
+  - numeric -( decimal- for financial applications,float , double )
   - string
-  - data and time 
+  - data and time ( select now(),year -month -day time)
   - boolean and sets
   
+  select fa+fab, da,db from munerics;  o/p (0.33388 , 03)
   
+ #UML 
   
 #trader jo;s buisness idea 
