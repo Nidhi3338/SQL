@@ -84,10 +84,10 @@ create databse database_name;
 create table;
 create table table_name
 - (column_name datatype key);
-show databases;
+* show databases;
 use databse;
-show tables;
-desc table name;
+* show tables;
+* desc table name;
 - to show the column name, type , null values of the table )
 
 alter table by adding column
@@ -134,5 +134,13 @@ MODE %
   - (fetch only 5 rows)
   3. insert into column name values( constraints) 
   - (to add a row or rows to the table)
+  
+  # Data Types
+  - numeric -( float , double )
+  - string
+  - data and time 
+  - boolean and sets
+  
+  
   
 #trader jo;s buisness idea 
