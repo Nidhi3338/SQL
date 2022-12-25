@@ -87,6 +87,7 @@ create table table_name
 * show databases;
 use databse;
 * show tables;
+* show table status;
 * desc table name;
 - to show the column name, type , null values of the table )
 
