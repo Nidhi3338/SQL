@@ -86,6 +86,7 @@ create table table_name
 - (column_name datatype key);
 * show databases;
 use databse;
+* show create table customer;
 * show tables;
 * show table status;
 * desc table name;
@@ -137,7 +138,7 @@ MODE %
   - (to add a row or rows to the table)
   
   # Data Types
-  - numeric -( float , double )
+  - numeric -( decimal ,float , double )
   - string
   - data and time 
   - boolean and sets
