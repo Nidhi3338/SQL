@@ -34,7 +34,8 @@ property of an entity
 4. multivalued attribute 
 
 primary key is unique key and doesnt have null values in the table
-
+foriegn key is a link btw two table 
+foriegn key and primary key should have same data type
 **Realationship**
 it is a process of describe a realationship between enitity 
 1. one to one
@@ -157,4 +158,6 @@ MODE %
   
 
 #trader jo;s buisness idea 
+	
+		![alt text]()
 	
