@@ -56,6 +56,7 @@ The commands available in SQL can be broadly categorised as follows:
 -  ALTER TABLE NAME ADD COLUMN NAME;
 -  ALTER TABLE NAME remove COLUMN NAME;
 -  ALTER TABLE NAME MODIFY COLUMN NAME ;- datatype change 
+-  ALTER TABLE transaction ADD CONSTRAINT customer_id FOREIGN KEY(customer_id)REFERENCES CUSTOMER(customer_id);
 4. Drop 
 - drop table test; (which will drope the entire table )
 5. Rename
@@ -156,4 +157,4 @@ MODE %
   
 
 #trader jo;s buisness idea 
-	[EER](/Users/test/Desktop)
+	
