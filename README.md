@@ -66,7 +66,8 @@ The commands available in SQL can be broadly categorised as follows:
 **Data Manipulation Language (DML):** not distrubing the schema 
 1. Insert  
 - insert into <table name> values(--,--);
-2. Update  
+2. Update 
+- to update is used for changing the exsisting table value
 - update table name set name ='',address='' where zip='89'; null -values
 3. Delete  
 - delete from table name where name ='';   / delete from table name ;-( delete the entire row values ) 
@@ -151,4 +152,5 @@ MODE %
   - aggregation ( without any dependency )
   - composition( with dependency)
   
+
 #trader jo;s buisness idea 
