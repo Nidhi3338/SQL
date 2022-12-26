@@ -159,5 +159,5 @@ MODE %
 
 #trader jo;s buisness idea 
 	
-		![alt text]()
+		![alt text](./)
 	
