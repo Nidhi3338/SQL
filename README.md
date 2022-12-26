@@ -159,5 +159,5 @@ MODE %
 
 #trader jo;s buisness idea 
 	
-		![alt text](./Screenshot 2022-12-24 at 9.40.25 PM 2.png)
+![alt text](./Screenshot 2022-12-24 at 9.40.25 PM 2.png)
 	
