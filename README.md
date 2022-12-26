@@ -156,3 +156,5 @@ MODE %
   
 
 #trader jo;s buisness idea 
+	[EER](<img width="501" alt="Screenshot 2022-12-24 at 9 40 25 PM" src="https://user-images.githubusercontent.com/33623897/209487050-ab330770-7a08-4f3e-acd1-e1796de4363e.png">
+)
