@@ -68,9 +68,11 @@ The commands available in SQL can be broadly categorised as follows:
 - insert into <table name> values(--,--);
 2. Update 
 - to update is used for changing the exsisting table value
+- UPDATE product SET product_address = 'brazil' WHERE product_address = '15';
 - update table name set name ='',address='' where zip='89'; null -values
 3. Delete  
 - delete from table name where name ='';   / delete from table name ;-( delete the entire row values ) 
+- DELETE FROM transaction WHERE transaction_id = 5008;
 4. Select
 - select * from tablename;
   
