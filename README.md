@@ -161,3 +161,10 @@ MODE %
 	
 ![alt text](./EER.png)
 	
+## Alies
+- SELECT (t1.column1, t2.column2)
+- update (UPDATE table1 t1)
+- JOIN (table2 t2 ON t1.column1 = t2.column1)
+- group by ( t1.column , t2.column)
+- CASE WHEN t2.column3 = 'X' 
+- SET t1.column2 = t1.column2 +
