@@ -103,6 +103,7 @@ alter table by deleting column
 alter table table_name drop column column_name;
 alter table by changing an existing column and constraint
 alter table table_name change old_column_name new_column_name constraint;
+ALTER TABLE table_name ADD CONSTRAINT anyname FOREIGN KEY(column_name)REFERENCES table_name(column_name;
 
 drop database
 drop database database_name;
