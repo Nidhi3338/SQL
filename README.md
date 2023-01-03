@@ -197,3 +197,11 @@ MODE %
 	```
 mutiple sub query 
 	this function are used (in , any, all )
+      ```
+	select dep_id  ,last name
+	from employee
+	where depart in(
+	select dep_id 
+	from depar
+	where depar in ('finace' ,'sale');
+	```
