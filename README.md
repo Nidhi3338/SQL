@@ -176,7 +176,7 @@ MODE %
 
 	1. join   
 	2. alies
-	3. if ( if movie_title like the% ,  'the movie', null ) as message // message is a new column , the ovie is true , and null is false
+	3. if ( if movie_title like the% ,  'the movie', null ) as message // message is a new column , (the movie is true , and null is false) - what to print in meassage 
 	4. like
 	5. between 
 	6. case
@@ -185,3 +185,13 @@ MODE %
 	9. aggretion function (max, min , count,sum)
 	10. distinct 
 	11. group by  select to_char(hiring_date),'yyyy') // to_char is used to select specific date
+	12. order by 
+## sub query 
+	single row sub query - when one row selected 
+	
+	``` 
+	select dep no , dep name , salary from dep
+	where salary > 
+	(select avg(salary)
+	from emp);
+	```
