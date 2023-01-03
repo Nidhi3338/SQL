@@ -176,7 +176,7 @@ MODE %
 
 	1. join   
 	2. alies
-	3. if ( if movie_title like the%) as message // message is a new column
+	3. if ( if movie_title like the% ,  'the movie', null ) as message // message is a new column , the ovie is true , and null is false
 	4. like
 	5. between 
 	6. case
