@@ -195,3 +195,5 @@ MODE %
 	(select avg(salary)
 	from emp);
 	```
+mutiple sub query 
+	this function are used (in , any, all )
