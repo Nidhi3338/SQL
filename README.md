@@ -77,6 +77,8 @@ The commands available in SQL can be broadly categorised as follows:
 - DELETE FROM transaction WHERE transaction_id = 5008;
 4. Select
 - select * from tablename;
+- select * from city where country ='india' and states  in ('karnataka','delhi');
+- select 5/0 = null not infifnity in mysql
   
 schema
 - its a collection of tables 
@@ -169,3 +171,6 @@ MODE %
 - group by ( t1.column , t2.column)
 - CASE WHEN t2.column3 = 'X' 
 - SET t1.column2 = t1.column2 +
+
+### group by 
+- to_char(hiring_date),'yyyy')
