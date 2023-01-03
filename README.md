@@ -174,3 +174,14 @@ MODE %
 
 ### group by 
 - to_char(hiring_date),'yyyy')
+	##FUNCTIONS
+	1. join   
+	2. alies
+	3. if ( if movie_title like the%) as message // message is a new column
+	4. like
+	5. between 
+	6. case
+	7. having 
+	8. where 
+	9. aggretion function (max, min , count,sum)
+	10. distinct 
