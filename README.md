@@ -172,9 +172,8 @@ MODE %
 - CASE WHEN t2.column3 = 'X' 
 - SET t1.column2 = t1.column2 +
 
-### group by 
-- to_char(hiring_date),'yyyy')
-	##FUNCTIONS
+### functions
+
 	1. join   
 	2. alies
 	3. if ( if movie_title like the%) as message // message is a new column
@@ -185,3 +184,4 @@ MODE %
 	8. where 
 	9. aggretion function (max, min , count,sum)
 	10. distinct 
+	11. group by  select to_char(hiring_date),'yyyy') // to_char is used to select specific date
