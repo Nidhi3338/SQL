@@ -79,6 +79,7 @@ The commands available in SQL can be broadly categorised as follows:
 - select * from tablename;
 - select * from city where country ='india' and states  in ('karnataka','delhi');
 - select 5/0 = null not infifnity in mysql
+- select concate( 'is', '' ,nidhi')
   
 schema
 - its a collection of tables 
