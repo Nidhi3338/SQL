@@ -216,4 +216,4 @@ mutiple sub query
 	```
 	
 	- substring_index/substring /substr // select substring('my name is nidhi' 6)
-	- soundex ( for simalr sound) select soundex(bill) sounddex(bell)
+	- soundex ( for simalr sound) select soundex(bill),sounddex(bell)
