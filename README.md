@@ -214,3 +214,5 @@ mutiple sub query
 	from depar
 	where depar in ('finace' ,'sale');
 	```
+	
+	substring_index/substring /substr // select substring('my name is nidhi' 6)
