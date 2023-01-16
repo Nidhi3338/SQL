@@ -215,4 +215,5 @@ mutiple sub query
 	where depar in ('finace' ,'sale');
 	```
 	
-	substring_index/substring /substr // select substring('my name is nidhi' 6)
+	- substring_index/substring /substr // select substring('my name is nidhi' 6)
+	- soundex ( for simalr sound)
