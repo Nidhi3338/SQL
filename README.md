@@ -232,5 +232,5 @@ mutiple sub query
 	- select sqrt(64)
 	- select rand()
 	- select ln () or log() // log
-	- select log( 10, 6) log(6)base10
+	- select log( 10, 6) log(6)base10 or log10(6)
 	
