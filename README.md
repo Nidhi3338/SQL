@@ -238,4 +238,5 @@ mutiple sub query
 	- select radians()
 	- select degrees()
 	- select exp() // exponasial distibution e(2.71)
+	- select 47 div 4 
 	
