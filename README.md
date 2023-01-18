@@ -225,3 +225,12 @@ mutiple sub query
 	- floor value - for low 
 	- round - rounding the decimal 
 	- turnacate - rounding up with limit index // select truncate (367,1) = 367.1
+	
+	## math value 
+	- select PI() +0.8
+	- select power(8,2)
+	- select sqrt(64)
+	- select rand()
+	- select ln () or log() // log
+	- select log( 10, 6) log(6)base10
+	
