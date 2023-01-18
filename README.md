@@ -227,11 +227,12 @@ mutiple sub query
 	- turnacate - rounding up with limit index // select truncate (367,1) = 367.1
 	
 	## math value 
-	- select PI() +0.8
+	- select PI() +0.8 // pi (3.14)
 	- select power(8,2) // 8 is base and 2 is exponent 
 	- select sqrt(64)
 	- select rand()
 	- select ln () or log() // log
 	- select log( 10, 6) log(6)base10 or log10(6)
 	- select radians()
-	select degrees()
+	- select degrees()
+	- select exp() // exponasial distibution e(2.71)
