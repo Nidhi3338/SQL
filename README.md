@@ -239,4 +239,4 @@ mutiple sub query
 	- select degrees()
 	- select exp() // exponasial distibution e(2.71)
 	- select 47 div 4 
-	
+	- select 45 mod 5 // mod(47,8)
