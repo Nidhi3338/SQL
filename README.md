@@ -5,6 +5,8 @@ most cloud computing platforms provides MYSQL IN AWS AND AZURE
 
 **MYsql**
 INONDB is a default storage engine for high performance and reliability 
+" name" // double quoate is reterving column or attribute 
+' name' // is just the string name of a row cell
 
 ##  Data 
 data is a collection of raw facts 
@@ -236,3 +238,4 @@ mutiple sub query
 	- select radians()
 	- select degrees()
 	- select exp() // exponasial distibution e(2.71)
+	
