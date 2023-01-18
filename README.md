@@ -233,4 +233,5 @@ mutiple sub query
 	- select rand()
 	- select ln () or log() // log
 	- select log( 10, 6) log(6)base10 or log10(6)
-	
+	- select radians()
+	select degrees()
