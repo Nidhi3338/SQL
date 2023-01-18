@@ -218,3 +218,10 @@ mutiple sub query
 	- substring_index/substring /substr // select substring('my name is nidhi' 6)
 	- soundex ( for simalr sound) select soundex(bill),sounddex(bell)
         - select 'bill' sounds like 'boil', sounds  like ' bill' sounds ' phil'
+	
+	## value function ( used after the select statement 
+	- abs ( absoult value ) clearing the negative symbole
+	- celing value - for high 
+	- floor value - for low 
+	- round - rounding the decimal 
+	- turnacate - rounding up with limit index // select truncate (367,1) = 367.1
