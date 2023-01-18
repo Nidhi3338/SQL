@@ -228,7 +228,7 @@ mutiple sub query
 	
 	## math value 
 	- select PI() +0.8
-	- select power(8,2)
+	- select power(8,2) // 8 is base and 2 is exponent 
 	- select sqrt(64)
 	- select rand()
 	- select ln () or log() // log
