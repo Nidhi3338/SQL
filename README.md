@@ -240,3 +240,11 @@ mutiple sub query
 	- select exp() // exponasial distibution e(2.71)
 	- select 47 div 4 
 	- select 45 mod 5 // mod(47,8)
+	
+### for partition  the rows we use over() clause
+	- SUM(quantity) OVER (PARTITION BY article) total_units_sold
+	- SELECT 
+    column1, 
+    SUM(column2) OVER (ORDER BY column1) as running_total
+    FROM 
+    table_name;
