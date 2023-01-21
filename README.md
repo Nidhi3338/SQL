@@ -147,7 +147,7 @@ MODE %
      (regular expression, for getting last r letter) select name from country
      where rlike r$ order by name;
     - where rlike '[xy][ia]'// trying to get eitherr x or y - or i or a
-    - where l.provided_email_address = 'FALSE' and l.circulation_active_year ='2016';
+    - where l.provided_email_address = 'FALSE' and l.circulation_active_year ='2016'and notice_preference_definition ='email';
 	
 
 # select comments 
