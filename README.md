@@ -233,6 +233,7 @@ mutiple sub query
 	- select power(8,2) // 8 is base and 2 is exponent 
 	- select sqrt(64)
 	- select rand()
+	- HAVING YEAR(circulation_active_year) = '2016'; /// ( Year ) is function to fetch the specfic year form the column 
 	- select ln () or log() // log
 	- select log( 10, 6) log(6)base10 or log10(6)
 	- select radians()
