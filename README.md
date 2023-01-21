@@ -27,6 +27,7 @@ represenation of entities and attributes , describes relationship btw each other
 
 **entity**
 its a non living or real things where data is maintained / entity conatins the attributes 
+where l.provided_email_address = 'FALSE' and l.circulation_active_year ='2016';
 
 **attribute**
 property of an entity 
@@ -142,10 +143,12 @@ MODE %
    "mon%"- which start with MON string value
    STRCMP is to compare the string 
    - select name from country
-     where strcmp(name,'cuba')>0 order by name;
+      where strcmp(name,'cuba')>0 order by name;
      (regular expression, for getting last r letter) select name from country
      where rlike r$ order by name;
-      where rlike '[xy][ia]'// trying to get eitherr x or y - or i or a
+    - where rlike '[xy][ia]'// trying to get eitherr x or y - or i or a
+    - where l.provided_email_address = 'FALSE' and l.circulation_active_year ='2016';
+	
 
 # select comments 
   1. select count(*) from table_name; 
