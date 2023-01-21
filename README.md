@@ -248,3 +248,6 @@ mutiple sub query
     SUM(column2) OVER (ORDER BY column1) as running_total
     FROM 
     table_name;
+### subquery 
+	- it is used to in a query within a query and to only get a subset from a another table without using join 
+	- 1 st select is the sub query and 2nd is the main goal of the query 
