@@ -259,6 +259,8 @@ mutiple sub query
        -  **** when there is NEGATIVE query to retrive that it when we use subquery 
 	
 ## common table expression 
-	`
-	with best_table as (select timestamp as time, action as ave from facebook_web_log group by action) select time,ave from best_table; 
-	`
+	```
+	with best_table as 
+	(select timestamp as time, action as ave from facebook_web_log group by action)
+	select time,ave from best_table; 
+	```
