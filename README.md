@@ -259,6 +259,7 @@ mutiple sub query
        -  **** when there is NEGATIVE query to retrive that it when we use subquery 
 	
 ## common table expression 
+	- to create a temprary table fr store new column creates by giving alies from old tables
 	```
 	with best_table as 
 	(select timestamp as time, action as ave from facebook_web_log group by action)
