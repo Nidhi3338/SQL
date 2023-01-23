@@ -263,4 +263,4 @@ mutiple sub query
 	with best_table as 
 (select timestamp as time, action as ave from facebook_web_log
 group by action) select time,ave from best_table; 
-	```
+	
