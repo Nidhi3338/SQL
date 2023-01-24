@@ -262,7 +262,7 @@ mutiple sub query
 FROM employee e1 
 WHERE salary = (SELECT max(salary) FROM employee WHERE department = e1.department);
 	``` 
-	- we can use operators like JOIN , IN , = in the subquery
+	- we can use operators like JOIN , IN , =, EXISTS  in the subquery
 	
 ## common table expression 
 	- to create a temprary table fr store new column creates by giving alies from old tables
