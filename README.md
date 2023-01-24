@@ -257,6 +257,12 @@ mutiple sub query
 	- 1 st select is the sub query and 2nd is the main goal of the query 
 	- subquery is used like join 
        -  **** when there is NEGATIVE query to retrive that it when we use subquery 
+	``` 
+	SELECT department, salary, first_name as employee_name 
+FROM employee e1 
+WHERE salary = (SELECT max(salary) FROM employee WHERE department = e1.department);
+	``` 
+	- we can use operators like JOIN , IN , = in the subquery
 	
 ## common table expression 
 	- to create a temprary table fr store new column creates by giving alies from old tables
