@@ -209,6 +209,19 @@ MODE %
 	(select avg(salary)
 	from emp);
 	```
+	the below subquery take 2 column in outer query and have to take 2 column in inner query
+	In is used for geting  2 columns "in "that filtering out department with respected salary
+	```
+	
+SELECT department, salary
+FROM employee
+WHERE (department, salary) in (SELECT department, MAX(salary) FROM employee GROUP BY department);
+	 ```
+	
+	
+	
+	
+	
 mutiple sub query 
 	this function are used (in , any, all )
       ```
