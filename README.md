@@ -234,6 +234,7 @@ mutiple sub query
 	```
 	
 	- substring_index/substring /substr // select substring('my name is nidhi' 6)
+	- substring_index /// select substring(categroies,';',-1) this will get the last word of a string and seeing a ';' separtor used in each sentence
 	- soundex ( for simalr sound) select soundex(bill),sounddex(bell)
         - select 'bill' sounds like 'boil', sounds  like ' bill' sounds ' phil'
 	
