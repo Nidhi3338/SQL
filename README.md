@@ -230,7 +230,24 @@ mutiple sub query
 	- floor value - for low 
 	- round - rounding the decimal 
 	- turnacate - rounding up with limit index // select truncate (367,1) = 367.1
-	
+	### subquery 
+	- it is used to in a query within a query and to only get a subset from a another table without using join 
+	- 1 st select is the sub query and 2nd is the main goal of the query 
+	- subquery is used like join 
+       -  **** when there is NEGATIVE query to retrive that it when we use subquery 
+	``` 
+	SELECT department, salary, first_name as employee_name 
+	FROM employee e1 
+	WHERE salary = (SELECT max(salary) FROM employee WHERE department = e1.department);
+	``` 
+	- we can use operators like JOIN , IN , =, EXISTS  in the subquery
+	``` 
+	select business_name,review_text 
+	from yelp_reviews
+	where cool =(select max(cool)
+	from yelp_reviews);
+	````
+
 	## math value 
 	- select PI() +0.8 // pi (3.14)
 	- select power(8,2) // 8 is base and 2 is exponent 
@@ -252,23 +269,7 @@ mutiple sub query
     SUM(column2) OVER (ORDER BY column1) as running_total
     FROM 
     table_name;
-### subquery 
-	- it is used to in a query within a query and to only get a subset from a another table without using join 
-	- 1 st select is the sub query and 2nd is the main goal of the query 
-	- subquery is used like join 
-       -  **** when there is NEGATIVE query to retrive that it when we use subquery 
-	``` 
-	SELECT department, salary, first_name as employee_name 
-FROM employee e1 
-WHERE salary = (SELECT max(salary) FROM employee WHERE department = e1.department);
-	``` 
-	- we can use operators like JOIN , IN , =, EXISTS  in the subquery
-``` 
-	select business_name,review_text 
-from yelp_reviews
-where cool =(select max(cool)
-from yelp_reviews);
-````
+
 
 ## common table expression 
 	- to create a temprary table fr store new column creates by giving alies from old tables
