@@ -263,7 +263,13 @@ FROM employee e1
 WHERE salary = (SELECT max(salary) FROM employee WHERE department = e1.department);
 	``` 
 	- we can use operators like JOIN , IN , =, EXISTS  in the subquery
-	
+``` 
+	select business_name,review_text 
+from yelp_reviews
+where cool =(select max(cool)
+from yelp_reviews);
+````
+
 ## common table expression 
 	- to create a temprary table fr store new column creates by giving alies from old tables
 	```
