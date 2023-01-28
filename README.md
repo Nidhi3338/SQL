@@ -185,7 +185,8 @@ MODE %
 - group by ( t1.column , t2.column)
 - CASE WHEN t2.column3 = 'X' 
 - SET t1.column2 = t1.column2 +
-
+## join 
+	when join is used for self ( its creatinh a table inside another table which is empty // Make sure to first get filter compontes into empty table first and the compare it with table which as everything 
 ### functions
 
 	1. join   
