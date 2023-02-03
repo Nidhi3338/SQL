@@ -218,7 +218,7 @@ SELECT department, salary
 FROM employee
 WHERE (department, salary) in (SELECT department, MAX(salary) FROM employee GROUP BY department);
 	 ```
-	
+WHERE EXTRACT(MONTH FROM order_date) = 3 AND EXTRACT(YEAR FROM order_date) = 2019	
 	
 	
 	
