@@ -219,6 +219,8 @@ FROM employee
 WHERE (department, salary) in (SELECT department, MAX(salary) FROM employee GROUP BY department);
 	 ```
 WHERE EXTRACT(MONTH FROM order_date) = 3 AND EXTRACT(YEAR FROM order_date) = 2019 and EXTRACT(DAY FROM order_date) = 8 	
+SELECT extract(year from inspection_date) AS year, 
+     count(violation_id) AS n_inspections
 	
 	
 	
