@@ -252,6 +252,13 @@ mutiple sub query
 	- 1 st select is the sub query and 2nd is the main goal of the query 
 	- subquery is used like join 
        -  **** when there is NEGATIVE query to retrive that it when we use subquery 
+	
+	```
+	SELECT first_name, target
+FROM salesforce_employees
+WHERE employee_title = 'Manager' AND target = (SELECT MAX(target) FROM salesforce_employees);
+	```
+	
 	``` 
 	SELECT department, salary, first_name as employee_name 
 	FROM employee e1 
