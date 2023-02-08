@@ -258,7 +258,13 @@ mutiple sub query
 FROM salesforce_employees
 WHERE employee_title = 'Manager' AND target = (SELECT MAX(target) FROM salesforce_employees);
 	```
-	
+	### window function 
+	```
+	DENSE_RANK()
+	over()
+	SELECT SUM(n_messages) OVER (ORDER BY n_messages)
+FROM airbnb_contacts
+```
 	``` 
 	SELECT department, salary, first_name as employee_name 
 	FROM employee e1 
