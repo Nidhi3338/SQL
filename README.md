@@ -163,6 +163,7 @@ MODE %
   - numeric -( decimal- for financial applications,float , double )
   - string
   - data and time ( select now(),year -month -day time)
+  - GROUP BY user, page, DATE(timestamp), HOUR(timestamp);
   - boolean and sets
   
   select fa+fab, da,db from munerics;  o/p (0.33388 , 03)
