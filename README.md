@@ -309,7 +309,6 @@ FROM airbnb_contacts
 	(select timestamp as time, action as ave from facebook_web_log group by action)
          select time,ave from best_table; 
 	```
-```
 	
 UPDATE salary
 SET sex = 
@@ -318,4 +317,3 @@ SET sex =
     WHEN sex = 'm' THEN 'f'
   END
 	
-```
