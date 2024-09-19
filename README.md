@@ -351,3 +351,77 @@ where depar in ('finace' ,'sale');
   WHEN sex = 'm' THEN 'f'
   END
   ```
+
+rank salespeople based on their total sales
+
+```
+SELECT 
+    employeeId, 
+    firstName, 
+    lastName, 
+    SUM(salesAmount) AS total_sales,
+    RANK() OVER (ORDER BY SUM(salesAmount) DESC) AS sales_rank
+FROM 
+    sales s
+INNER JOIN 
+    employee e ON s.employeeId = e.employeeId
+GROUP BY 
+    employeeId, firstName, lastName;
+
+```
+he window function's PARTITION BY or ORDER BY clause, the query won't be able to correctly rank the car models
+```
+WITH SalesRank AS (
+    SELECT 
+        e.employeeId, 
+        e.firstName,
+        e.lastName,
+        m.model,                 -- Include the model
+        COUNT(s.salesId) AS total_sales,   -- Count the total sales of each model
+        ROW_NUMBER() OVER (PARTITION BY e.employeeId ORDER BY COUNT(s.salesId) DESC) AS model_rank
+    FROM 
+        sales s
+    INNER JOIN 
+        inventory i ON s.inventoryId = i.inventoryId
+    INNER JOIN 
+        model m ON i.modelId = m.modelId
+    INNER JOIN 
+        employee e ON s.employeeId = e.employeeId
+    GROUP BY 
+        e.employeeId, e.firstName, e.lastName, m.model  -- Group by model to get sales count per model
+)
+SELECT 
+    employeeId,
+    firstName,
+    lastName,
+    model,        -- Display the car model
+    total_sales,
+    model_rank
+FROM 
+    SalesRank
+ORDER BY 
+    employeeId, model_rank;
+
+```
+Query to Sum Sales Amount for January
+```
+WITH cte AS (
+    SELECT e.employeeId, 
+           e.firstName,
+           e.lastName,
+           s.soldDate,
+           s.salesAmount,
+           s.salesid
+    FROM sales s 
+    INNER JOIN employee e 
+        ON s.employeeId = e.employeeId
+)
+SELECT firstName,
+       lastName,
+       SUM(CASE 
+               WHEN strftime('%m', soldDate) = '01' THEN salesAmount
+               ELSE 0
+           END) AS janSales
+FROM cte
+GROUP BY firstName, lastName;
+```
